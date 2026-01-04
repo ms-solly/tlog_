@@ -10,7 +10,7 @@ typedef enum{
 typedef struct tlog_logger tlog_logger;
 
 tlog_logger* tlog_create(const char* filepath);
-moid tlog_set_level(tlog_logger* logger, tlog_level level);
+void tlog_set_level(tlog_logger* logger, tlog_level level);
 void tlog_destroy(tlog_logger* logger);
 
 
